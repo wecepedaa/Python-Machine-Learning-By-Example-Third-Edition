@@ -40,7 +40,7 @@ def display_distribution(data):
 
 
 if __name__ == '__main__':
-    data_path = 'ml-1m/ratings.dat'
+    data_path = r'C:\Users\wecep\iCloudDrive\UDEMY\Python-Machine-Learning-By-Example-Third-Edition\chapter2\ml-1m\ratings.dat'
     n_users = 6040
     n_movies = 3706
     data, movie_n_rating, movie_id_mapping = load_rating_data(data_path, n_users, n_movies)
